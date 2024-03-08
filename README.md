@@ -1,4 +1,4 @@
-# Erlkaf Nif Broken
+# Erlkaf Example
 
 This is an application to demonstrate Erlkaf failing to start up when running with Elixir 1.15.7-otp-26 and Erlang 26.2.2.
 
@@ -8,7 +8,7 @@ I've tested this on an m1 Macbook Pro as well as an Ubuntu 22.04 Docker image. F
 
 - Install erlkaf dependencies 
         
-        brew install erlang openssl@1.1 lz4 zstd curl
+        brew install openssl@1.1 lz4 zstd curl
 
 - I'm using asdf to manage Erlang/Elixir versions 
   
